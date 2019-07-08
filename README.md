@@ -8,6 +8,15 @@
   </div>
 </p>
 
+<p align="center">
+ 	<a href=#>
+		<img src="resources/schematic_1.png" width="160" height="132">
+		<img src="resources/schematic_2.png" width="160" height="132">
+		<img src="resources/schematic_3.png" width="160" height="132">
+	</a>
+</p>
+
+
 ## Table of contents
 * [Application Demo](#application-demo)
 * [Introduction](#introduction)
@@ -17,9 +26,6 @@
 
 ## Application Demo
 ### [Level-Set Visualizer – Demo (YouTube)](https://www.youtube.com/watch?v=uTrr98JsRps)
-<p align="center">
-<iframe width="720" height="450" src="https://www.youtube.com/embed/uTrr98JsRps">&nbsp;</iframe>
-</p>
 
 ## Introduction
 This application Perform image segmentation by following steps:
