@@ -18,7 +18,7 @@
 ## Application Demo
 ### [Level-Set Visualizer – Demo (YouTube)](https://www.youtube.com/watch?v=uTrr98JsRps)
 <p align="center">
-<iframe width="720" height="450" src="https://www.youtube.com/embed/uTrr98JsRps"></iframe>
+<iframe width="720" height="450" src="https://www.youtube.com/embed/uTrr98JsRps">&nbsp;</iframe>
 </p>
 
 ## Introduction
@@ -58,7 +58,7 @@ This application Perform image segmentation by following steps:
  * [Qt 5.6](https://doc.qt.io/archives/qt-5.6/index.html) - GUI framework
 
 ## Installation
-```console
+```sh
 $ mkdir build
 $ cd build
 $ cmake ../src
