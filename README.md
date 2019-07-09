@@ -28,7 +28,7 @@
 ### [Level-Set Visualizer – Demo (YouTube)](https://www.youtube.com/watch?v=uTrr98JsRps)
 
 ## Introduction
-This application Perform image segmentation by following steps:
+This application perform image segmentation by following steps:
 
 * Load Image & Start Level-Set Mode
 * Preprocessing
@@ -59,11 +59,16 @@ This application Perform image segmentation by following steps:
 </p>
 
 ## Built With
- * [ITK 4.12](https://itk.org/ITK/resources/legacy_releases.html) - Image Processing Algorithms
+
+
+ * [ITK 4.12](https://itk.org/ITK/resources/legacy_releases.html) - Image Processing Algorithms (w/ module `ITKVtkGlue`)
  * [VTK 8.2](https://vtk.org/download/) - Image Display
  * [Qt 5.6](https://doc.qt.io/archives/qt-5.6/index.html) - GUI framework
 
 ## Installation
+
+Before running the following command, modify `QT_HOME`, `ITK_DIR`, and `VTK_DIR` in [CMakeLists.txt](https://github.com/wenyalintw/Level-Set-Visualizer/blob/master/src/CMakeLists.txt)
+
 ```sh
 $ mkdir build
 $ cd build
@@ -72,7 +77,7 @@ $ make -j4
 ```
 
 ## Acknowledgments
-- This application is inspired by [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php).
+- This application is inspired by [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php)
 - Processing pipeline & [test.png](https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/src/test.png) modified from [ITK GAC Example](https://itk.org/ITKExamples/src/Segmentation/LevelSets/SegmentWithGeodesicActiveContourLevelSet/Documentation.html)
 - [heart.png](https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/resources/heart.png) modified from [ICONFINDER](https://www.iconfinder.com/icons/44697/cardiology_heart_organ_icon)
 

@@ -6,8 +6,13 @@ set(CMAKE_CXX_STANDARD 11)
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
 
-### Qt
+###### Local DIR #####
 set(QT_HOME "/Users/apple/Desktop/Qt5.6/5.6/clang_64")
+set(ITK_DIR "/usr/local/lib/cmake/ITK-4.12")
+set(VTK_DIR "/usr/local/lib/cmake/vtk-8.2")
+
+
+### Qt
 set(CMAKE_PREFIX_PATH ${QT_HOME})
 set(PROJECT_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
 set(CMAKE_INCLUDE_CURRENT_DIR on)
@@ -18,11 +23,7 @@ set(CMAKE_AUTORCC on)
 # 根據所需尋找所需package
 find_package(Qt5 REQUIRED Core Widgets UiTools Xml Network Qml Quick)
 
-
-set(ITK_DIR "/usr/local/lib/cmake/ITK-4.12")
-set(VTK_DIR "/usr/local/lib/cmake/vtk-8.2")
-
-
+### ITK & VTK
 find_package(ITK REQUIRED)
 include(${ITK_USE_FILE})
 if (ITKVtkGlue_LOADED)
