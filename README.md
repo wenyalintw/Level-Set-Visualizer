@@ -81,4 +81,5 @@ $ make -j4
 - Processing pipeline & [test.png](https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/src/test.png) modified from [ITK GAC Example](https://itk.org/ITKExamples/src/Segmentation/LevelSets/SegmentWithGeodesicActiveContourLevelSet/Documentation.html)
 - [heart.png](https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/resources/heart.png) modified from [ICONFINDER](https://www.iconfinder.com/icons/44697/cardiology_heart_organ_icon)
 
+###### MIT License (2019), Wen-Ya Lin
 
